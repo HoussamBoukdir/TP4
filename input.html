@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Formulaire</title>
+</head>
+<body>
+    <table border="1" class="bg-black">
+        <tr>
+            <td width="30%">Nom</td>
+            <td width="70%"></td>
+        </tr>
+        <tr>
+            <td>Prénom</td>
+            <td><input type="text" name="prenom" style="width: 98%;"></td>
+        </tr>
+        <tr>
+            <td>Sexe</td>
+            <td>
+                <select name="sexe" style="width: 100%;">
+                    <option value="masculin">Masculin</option>
+                    <option value="feminin">Féminin</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Date de naissance</td>
+            <td><input type="date" name="date_naissance" style="width: 98%;"></td>
+        </tr>
+        <tr>
+            <td>Niveau d'étude</td>
+            <td>
+                <select name="niveau_etude" style="width: 100%;">
+                    <option value="bac">Baccalauréat</option>
+                    <option value="bac_plus_2">Bac +2</option>
+                    <option value="bac_plus_3">Bac +3</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Spécialité</td>
+            <td><input type="text" name="specialite" style="width: 98%;"></td>
+        </tr>
+        <tr>
+            <td>Téléphone</td>
+            <td><input type="tel" name="telephone" style="width: 98%;" placeholder="06XXXXXXXX"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" style="width: 98%;"></td>
+        </tr>
+        <tr>
+            <td>Site web personnel</td>
+            <td><input type="url" name="site_web" style="width: 98%;" placeholder="https://"></td>
+        </tr>
+        <tr>
+            <td>Adresse</td>
+            <td><textarea name="adresse" style="width: 98%;" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td><input type="file" name="photo" accept="image/*" style="width: 98%;"></td>
+        </tr>
+    </table>
+</body>
+</html>
